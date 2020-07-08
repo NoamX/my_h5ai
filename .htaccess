@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/.assets/.*$
+RewriteCond %{REQUEST_URI} !/.css/.*$
+RewriteCond %{REQUEST_URI} !/.php/.*$
+RewriteCond %{REQUEST_URI} !/.js/.*$
+RewriteRule .* .index.php

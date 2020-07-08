@@ -1,0 +1,13 @@
+body {
+    background: #a4b0be;
+}
+
+.folder li:hover, .tree li:hover {
+    box-shadow: 0 0 10px #a4b0be;
+    z-index: 1;
+}
+
+.folder #order:hover {
+    transform: none;
+    box-shadow: none;
+}
